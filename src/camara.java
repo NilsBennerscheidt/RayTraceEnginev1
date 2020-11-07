@@ -24,7 +24,9 @@ public class camara {
     private void fInit(){
         //the fInit calculates the vRenderVectors
         /*
-        Bestimmt den Richtungsvektor der einzelnen Pixelstrahlen aus dem orts udn richtungsvektor der camera und den FOV
+
+              Bestimmt den Richtungsvektor der einzelnen Pixelstrahlen aus dem Orts udn Richtungsvektor der camera und den FOV
+
          */
 
         //determining the angle for each vektor
@@ -62,9 +64,9 @@ public class camara {
             finalOut[x] = temp1;
             System.out.println(Arrays.toString(temp1));
         }
+    }
 
-
-
+    private void fPixelVektoren(){
 
 
     }
